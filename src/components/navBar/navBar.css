@@ -1,0 +1,31 @@
+header {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-shadow: 0 1px 1px rgba(0,0,0,.15);
+    align-items: center;
+    padding: 20px;
+}
+.header_left i{
+  margin-left: 30px;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.logo {
+    height: 20px;
+    margin-right: 15px;
+    display: flex;
+}
+
+.avatar img {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+}
+.header_right {
+    display: flex;
+    align-items: center;
+}

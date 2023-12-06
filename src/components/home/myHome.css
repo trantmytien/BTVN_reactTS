@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+hr {
+    color: white;
+    margin: 0;
+}
+.left_laptop {
+    padding:0 20px;
+    background-color: #272c33;
+    height: 100vh;
+    position: relative;
+}
+.left_laptop h1 {
+    color: white;
+}
+.admin_right {
+    width: 100%;
+}
+a {
+    text-decoration: none;
+}
+.hidden {
+    display: none;
+}
+
+.left_laptop h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.group {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+.group p {
+    margin-bottom: 0;
+    margin-left: 60px;
+}
+.icon {
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: -20px;
+    color: white;
+}
+.header_admin_left {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width:741px) {
+    .left_mobile {
+        display: none;
+    } 
+    .admin {
+        display: flex;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width:740px) {
+    .left_mobile {
+        display: block;
+        background-color: #272c33 !important;
+        padding: 0 20px;
+        color: white !important;
+        .navbar-brand {
+             color: white !important;
+        }
+        .navbar-toggler i {
+            color: white !important;
+        }
+    }
+    .left_laptop {
+        display: none;
+    }
+    .container-fluid {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .left_mobile .nav-item {
+      display: flex;
+      align-items: center;
+    }
+    .left_mobile .nav-link {
+       margin-left: 20px;
+      }
+      .nav-link {
+        color: white !important;       
+      }
+      .nav-item {
+        color: white;
+        &:hover .nav-link {
+            color: #0b58ca !important;       
+          }
+      }
+   
+      .logo {
+        color: white !important;
+      }
+}
+.clicked {
+    color: red !important;
+   }
